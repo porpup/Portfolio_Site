@@ -1089,14 +1089,14 @@ input[type="button"]:focus {
 
 .app-design__visual {
     position: absolute;
-    top: 35px;
+    top: 5px;
     left: 25%;
     width: 1036px;
     height: 659px;
     margin: 0;
-    background-image: url("../img/app-design-visual.jpg");
+    background-image: url("../img/about-visual.png");
     background-position: center;
-    background-size: 30%;
+    background-size: 35%;
     background-repeat: no-repeat
 }
 
@@ -1181,9 +1181,9 @@ input[type="button"]:focus {
     height: 581px;
     margin: 0;
     margin-right: 100px;
-    background-image: url("../img/web-design-visual.png");
+    background-image: url("../img/cisco.png");
     background-position: right;
-    background-size: 28%;
+    background-size: 60%;
     background-repeat: no-repeat
 }
 
