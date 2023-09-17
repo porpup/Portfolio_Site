@@ -504,7 +504,8 @@ input[type="button"]:focus {
 
 .blurb--framed {
     padding: 15px 0;
-    background-color: #fafafa
+    background-color: #fafafa;
+    
 }
 
 .blurb__heading {
