@@ -22,7 +22,7 @@ $(document).ready(function () {
 			/* Introduction Animation */
 			var $name = $('.introduction__content-el--name'),
 				$job = $('.introduction__content-el--job');
-			TweenLite.to([$name, $job], 0.8, { x: 0, opacity: 1, ease: Power1.easeOut });
+			TweenLite.to([ $name, $job ], 0.8, { x: 0, opacity: 1, ease: Power1.easeOut });
 		}, 800);
 
 	});
@@ -88,10 +88,10 @@ $(document).ready(function () {
 			.addTo(controller);
 
 		/* Fix for about__visual positioning due to
-		   * JS tweening overwriting CSS translateX
-		   * value when loaded on a larger display
-		   * that is then resized below 991
-		   * (e.g. landscape => portrait) */
+			 * JS tweening overwriting CSS translateX
+			 * value when loaded on a larger display
+			 * that is then resized below 991
+			 * (e.g. landscape => portrait) */
 		$(window).resize(function () {
 
 			if ($(window).width() <= 991) {
